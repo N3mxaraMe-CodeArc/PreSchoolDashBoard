@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg mt-2" data-bs-theme="light">
       <div className="container-fluid">
-        <a className="navbar-brand text-white" href="#">
+        <a className="navbar-brand text-white fw-bold" href="#">
           Brand Name
         </a>
         <div className="d-flex justify-content-end align-items-center">
