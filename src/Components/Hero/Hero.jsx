@@ -1,14 +1,14 @@
 import HeroImg from "../../assets/HeroSection/Hero.png";
+import HeroContent from "./HeroContent";
 
 const Hero = () => {
   return (
     <div className="container-fluid position-relative">
-      <div className="row">
-        <div
-          style={{ border: "1px solid red" }}
-          className="col-12 col-md-6 col-sm-12 h-50 d-flex align-items-center"
-        >
-          <h5 className="fw-bold h5 text-primary fs-16">Welcome</h5>
+      <div className="row justify-content-end">
+        <div className="col-12 col-md-6 col-sm-12 d-flex flex-column" style={{ border: "1px solid red" }}>
+          <div className="d-flex justify-content-end " style={{ flex: 1 }}>
+            <HeroContent />
+          </div>
         </div>
         <div className="col-12 col-md-6 d-flex justify-content-end">
           <img

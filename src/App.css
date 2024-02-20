@@ -4,3 +4,20 @@
   background-color: #26335d;
   font-family: "Montserrat", sans-serif;
 }
+
+.buttons {
+  color: white !important;
+  background-color: #8d5cf6 !important;
+}
+
+.buttons:hover {
+  background-color: transparent !important;
+  color: #8d5cf6 !important;
+  border: 1px solid #8d5cf6 !important;
+  transition: all 0.3s;
+}
+
+.btn-hovers:hover {
+  border: 1px solid white !important;
+  transition: all 0.3s;
+}
