@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/NavBar/Navbar";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Review from "./Components/Recomandation/Review";
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
       <div className="container-fluid">
         <Hero/>
       </div>
+      <div className="container-fluid">
+        <Review/>
+      </div>
+      
     </>
   );
 }

@@ -1,4 +1,5 @@
 import { useWindowSize } from "./WindowSize";
+import '../../App.css'
 
 const HeroContent = () => {
   const { width } = useWindowSize();
@@ -47,7 +48,7 @@ const HeroContent = () => {
         >
           <button className="btn buttons fw-bold">Get in touch</button>
           <button className="btn text-light btn-hovers ms-2">
-            Learn More <i className="bi bi-caret-right-fill"></i>
+            Learn More <i style={{ transform: 'translateX(10px)' }} className="bi bi-caret-right-fill icon"></i>
           </button>
         </div>
       </div>

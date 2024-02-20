@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import '../../App.css'
 
 const Navbar = () => {
   return (
@@ -11,12 +12,12 @@ const Navbar = () => {
           <button className="btn btn-outline-light mx-2 fw-bold">Login</button>
           <button
             style={{ backgroundColor: "#8D5CF6" }}
-            className="btn text-white joinUs"
+            className="btn text-white sign-btn "
           >
             Join us
             <i
               style={{ background: "none", marginLeft: "10px" }}
-              className="bi bi-arrow-right"
+              className="bi bi-arrow-right icon"
             ></i>
           </button>
         </div>
