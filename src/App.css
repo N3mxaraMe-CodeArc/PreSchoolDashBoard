@@ -23,13 +23,37 @@
   transition: all 0.8s;
 }
 
-.btn-hovers:hover .icon{
+.btn-hovers:hover .icon {
   margin-left: 0.15rem !important;
   transition: all 0.3s;
 }
 
-.sign-btn:hover .icon{
-  margin-left: 1rem!important;
+.sign-btn:hover .icon {
+  margin-left: 1rem !important;
   transition: all 0.3s;
 }
 
+.see-more {
+  color: #8d5cf6 !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: all 0.3s;
+  font-size: 0.8rem !important;
+  margin-top: 2rem;
+  border: 1px solid #8d5cf6 !important;
+}
+
+.see-more i {
+  margin-left: 0.5rem;
+}
+
+.see-more:hover {
+  color: white !important;
+  border: 1px solid white !important;
+  transition: all 0.3s;
+}
+
+.see-more:hover i {
+  margin-left: 1rem;
+  transition: all 0.3s;
+}

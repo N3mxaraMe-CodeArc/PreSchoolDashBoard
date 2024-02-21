@@ -22,7 +22,7 @@ const HeroContent = () => {
       >
         <h5 className="fw-bold text-uppercase text-primary fs-5">Welcome</h5>
         <h1
-          className={`text-uppercase fw-bold text-light fs-58 ${
+          className={`text-uppercase fw-bold text-light ${
             isSmallWindow ? "text-center" : ""
           }`}
         >

@@ -1,11 +1,12 @@
-import "./Navbar.css";
 import '../../App.css'
+import "./Navbar.css";
 
 const Navbar = () => {
+
   return (
-    <nav className="navbar navbar-expand-lg mt-2" data-bs-theme="light">
-      <div className="container-fluid">
-        <a className="navbar-brand text-white fw-bold" href="#">
+    <nav className={`navbar navbar-expand-lg mt-2 `} data-bs-theme="light">
+      <div className={`container-fluid `}>
+        <a className="navbar-brand text-white fw-bold"  href="#">
           Brand Name
         </a>
         <div className="d-flex justify-content-end align-items-center">
