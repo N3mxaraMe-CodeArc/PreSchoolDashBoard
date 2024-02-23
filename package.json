@@ -10,10 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-carousel-nugget": "^3.2.28",
+    "react-toastify": "^10.0.4",
+    "swiper": "^11.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
