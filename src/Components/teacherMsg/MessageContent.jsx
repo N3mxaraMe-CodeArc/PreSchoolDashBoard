@@ -7,8 +7,8 @@ const MessageContent = () => {
   return (
     <div>
       <div
-        style={{ height: "0.3rem", width: "3rem" }}
-        className="bg-warning mb-2"
+        style={{ height: "0.3rem", width: isSmallWindow? '100%' :'2rem', margin: isSmallWindow?'3rem 0':'' }}
+        className={`bg-warning mb-2`}
       ></div>
       <h2
         className={`fs-3 text-light fw-bold ${

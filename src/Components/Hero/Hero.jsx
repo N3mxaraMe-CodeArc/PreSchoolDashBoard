@@ -9,7 +9,11 @@ const Hero = () => {
   return (
     <div className="container-fluid position-relative">
       <div className="row justify-content-end">
-        <div className="col-12 col-md-6 col-sm-12 d-flex flex-column">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="100"
+          className="col-12 col-md-6 col-sm-12 d-flex flex-column"
+        >
           <div
             className={`d-flex ${
               isSmallWindow
@@ -23,7 +27,7 @@ const Hero = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-delay="300"
+          data-aos-delay="100"
           className="col-12 col-md-6 d-flex justify-content-end"
         >
           <img src={HeroImg} alt="Hero" className="img-fluid" />

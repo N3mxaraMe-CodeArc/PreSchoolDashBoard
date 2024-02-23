@@ -7,8 +7,6 @@ const HeroContent = () => {
 
   return (
     <div
-      data-aos="fade-right"
-      data-aos-delay="300"
       style={{ width: "80%", height: "100%", gap: "2rem"}}
       className={`d-flex flex-direction-column align-items-center`}
     >

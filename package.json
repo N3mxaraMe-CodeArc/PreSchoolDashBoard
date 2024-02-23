@@ -19,7 +19,10 @@
     "react": "^18.2.0",
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
-    "react-toastify": "^10.0.4"
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-carousel-nugget": "^3.2.28",
+    "react-toastify": "^10.0.4",
+    "swiper": "^11.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

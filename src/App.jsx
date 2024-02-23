@@ -6,6 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Review from "./Components/Recomandation/Review";
 import TeacherMsg from "./Components/teacherMsg/TeacherMsg";
+import Slider from "./Components/Testomonial/Slider";
+
 
 function App() {
 
@@ -37,6 +39,9 @@ function App() {
       <br />
       <div className="container-fluid ">
         <TeacherMsg/>
+      </div>
+      <div className="container">
+        <Slider/>
       </div>
     </>
   );
