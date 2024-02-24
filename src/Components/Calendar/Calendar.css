@@ -1,0 +1,10 @@
+.calendar{
+    background-color: #fff !important;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.selected-date{
+    background-color:blueviolet !important;
+    color: white!important;
+}
